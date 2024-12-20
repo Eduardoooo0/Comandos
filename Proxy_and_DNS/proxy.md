@@ -1,4 +1,4 @@
-## Conceito de Proxy Reverso
+# Conceito de Proxy Reverso
 Um proxy reverso é um servidor que atua como intermediário para requisições de clientes que buscam acessar outros servidores. Em vez de o cliente se conectar diretamente ao servidor de origem, ele se conecta ao proxy reverso, que então redireciona a requisição para o servidor apropriado. O proxy reverso pode oferecer várias funcionalidades, como:
 * **Balanceamento de carga**: Distribui requisições entre múltiplos servidores para otimizar a performance.
 
@@ -11,7 +11,7 @@ Um proxy reverso é um servidor que atua como intermediário para requisições 
 ![Sistema do proxy reverso](https://kinsta.com/pt/wp-content/uploads/sites/3/2020/08/funciona-servidor-proxy-reverso.png)
 https://kinsta.com/pt/blog/proxy-reverso/
 
-## Aplicação e Configuração do Proxy Reverso
+# Aplicação e Configuração do Proxy Reverso
 Para implementar um proxy reverso em um servidor web, pode-se usar o Nginx.
 1. **Instalação do Nginx**:
 ```bash
@@ -88,5 +88,5 @@ sudo systemctl restart nginx
 6. **Testar a Configuração**:
 Acesse **http://seu_dominio.com** no navegador para verificar se as requisições estão sendo redirecionadas corretamente.
 
-## Referências
+# Referências
 **https://kinsta.com/pt/blog/proxy-reverso/**
